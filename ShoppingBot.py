@@ -2,11 +2,13 @@
 """
 
 """
+import os
 import json
 import telebot
 from telebot import types
 
-API_TOKEN = 
+
+API_TOKEN = os.environ['API_TOKEN']
 
 bot = telebot.TeleBot(API_TOKEN)
 
