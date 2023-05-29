@@ -8,7 +8,7 @@ import telebot
 from telebot import types
 
 
-API_TOKEN = os.environ['API_TOKEN']
+API_TOKEN = os.environ['API_TOKEN_E']
 
 bot = telebot.TeleBot(API_TOKEN)
 
