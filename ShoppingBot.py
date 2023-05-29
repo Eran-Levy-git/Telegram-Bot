@@ -19,7 +19,6 @@ current_new_item = ""
 class User:
     def __init__(self, chat_id):
         self.chat_id = chat_id
-        # self.f = open("/home/Eran/pyTelegramBotAPI/examples/data_file.json")
         self.f = open("data_file.json")
         self.json_data = json.load(self.f)
         self.divisions_list = list(self.json_data["מחלקות"])
